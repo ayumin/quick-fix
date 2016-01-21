@@ -138,13 +138,11 @@ header .logo-text {
 }
 
 .textured-section {
-  background-color: rgb(161,109,59);
-  background-image: url(images/wood-grain.jpg);
-  background-position: left top;
+  background-color: rgb(0,0,0);
 }
 .textured-section h1 {
   font-weight: 600;
-  color: rgb(247,220,172);
+  color: rgb(255,255,255);
 }
 @media (min-width: 500px) {
   .textured-section h1 {
