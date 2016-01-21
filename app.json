@@ -8,6 +8,6 @@
   "website": "https://heroku.github.io/fix",
   "repository": "https://github.com/heroku/quick-fix.git",
   "env": {},
-  "addons": [],
-  "image": "heroku/nodejs"
+  "image": "heroku/nodejs",
+  "addons": ["herokuconnect", "heroku-postgresql:premium-0", "heroku-redis:premium-0", "papertrail:choklad", "sendgrid:starter"]
 }
